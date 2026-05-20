@@ -18,10 +18,8 @@ export default function Footer() {
     <footer className="bg-natural-950 text-gray-300 mt-12 border-t border-gray-700 pt-5 py-5">
       <div className="max-w-6xl mx-auto px-6 py-10">
 
-        {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8" data-aos="fade-up">
 
-          {/* Left - About */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-white">Mohammed Swofvan P</h2>
             <p className="mt-2 text-sm">
@@ -29,7 +27,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Center - Contact */}
           <div className="flex flex-col items-center">
             <div className="text-left">
                 <p className="flex items-center gap-2">
@@ -41,7 +38,6 @@ export default function Footer() {
             </div>
             </div>
 
-          {/* Right - Social Icons */}
           <div className="flex gap-6 text-2xl">
             <a
               href="https://www.linkedin.com/in/your-linkedin-id"
@@ -72,7 +68,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Line */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-500" data-aos="fade-up">
           © 2026 Swofvan. All rights reserved.
         </div>

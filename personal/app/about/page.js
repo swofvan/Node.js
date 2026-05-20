@@ -73,7 +73,6 @@ export default function About() {
 
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* ── HERO ── */}
         <section className="min-h-[90vh] flex flex-col justify-center py-20">
 
           <div data-aos="fade-up">
@@ -104,7 +103,6 @@ export default function About() {
             </p>
           </div>
 
-          {/* Contact links */}
           <div
             data-aos="fade-up"
             data-aos-delay="400"
@@ -143,7 +141,6 @@ export default function About() {
 
         <div className="border-t border-white/10" />
 
-        {/* ── SKILLS ── */}
         <section className="py-20">
           <div data-aos="fade-up">
             <p className="text-purple-600 font-mono text-sm tracking-widest mb-2">
@@ -182,7 +179,6 @@ export default function About() {
 
         <div className="border-t border-white/10" />
 
-        {/* ── PROJECTS ── */}
         <section className="py-20">
           <div data-aos="fade-up">
             <p className="text-purple-600 font-mono text-sm tracking-widest mb-2">
@@ -214,12 +210,10 @@ export default function About() {
                   </div>
                 </div>
 
-                {/* Description */}
                 <p className="text-gray-400 text-sm leading-relaxed mb-5">
                   {project.desc}
                 </p>
 
-                {/* Tech tags */}
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((t) => (
                     <span
@@ -245,7 +239,6 @@ export default function About() {
 
         <div className="border-t border-white/10" />
 
-        {/* ── EXPERIENCE ── */}
         <section className="py-20">
           <div data-aos="fade-up">
             <p className="text-purple-600 font-mono text-sm tracking-widest mb-2">
@@ -294,7 +287,6 @@ export default function About() {
 
         <div className="border-t border-white/10" />
 
-        {/* ── CERTIFICATION ── */}
         <section className="py-20">
           <div data-aos="fade-up">
             <p className="text-purple-600 font-mono text-sm tracking-widest mb-2">

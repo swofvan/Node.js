@@ -18,7 +18,6 @@ export default function Contact() {
     <div className="bg-neutral-950 text-white min-h-screen">
       <Nav />
 
-      {/* Heading */}
       <section className="text-center py-16 px-6">
         <h1 className="text-4xl font-bold text-purple-700" data-aos="fade-up" data-aos-delay="100">Contact Me</h1>
         <p className="mt-4 text-gray-300" data-aos="fade-up" data-aos-delay="200">
@@ -26,10 +25,8 @@ export default function Contact() {
         </p>
       </section>
 
-      {/* Contact Info + Form */}
       <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-6 pb-16">
         
-        {/* Left - Contact Details */}
         <div className="bg-neutral-900 p-8 rounded-lg shadow-lg space-y-6 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-2xl font-semibold text-purple-700" data-aos="fade-up" data-aos-delay="200">Get in Touch</h2>
 
@@ -41,7 +38,6 @@ export default function Contact() {
             <FaPhone /> +91 8594 040 472
           </p>
 
-          {/* Social Links */}
           <div className="flex gap-6 text-2xl pt-4" data-aos="fade-up" data-aos-delay="500">
             <a href="https://www.linkedin.com/" target="_blank" className="hover:text-blue-500 transition">
               <FaLinkedin />
@@ -55,7 +51,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Right - Simple Form */}
         <div className="bg-neutral-900 p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-2xl font-semibold text-purple-700 mb-6" data-aos="fade-up" data-aos-delay="200">Send a Message</h2>
 
